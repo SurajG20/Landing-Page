@@ -14,7 +14,7 @@ body{
     height: 380px;
     justify-content: space-between;
     gap: 60px;
-    padding: 10px 80px;
+    padding: 40px 80px;
 }
 
 .header{
@@ -84,7 +84,7 @@ a{
     flex-direction: column;
     align-items: center;
     gap: 60px;
-    padding: 10px 80px;
+    padding: 40px 80px;
 
 }
 .info{
@@ -108,4 +108,26 @@ a{
     object-position: center;
     object-fit: cover;
     border-radius: 10px;
+}
+.quote-container{
+    height: 380px;
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    padding: 40px 80px;
+}
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1F2937;
+}
+.author{
+    color: #1F2937;
+    font-size: 24px;
+    font-weight: bold;
+    align-self: flex-end;
 }
