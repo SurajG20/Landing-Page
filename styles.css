@@ -11,10 +11,12 @@ body{
     background-color: #1F2937;
     display: flex;
     flex-direction: column;
-    height: 380px;
+    height: 450px;
     justify-content: space-between;
-    gap: 60px;
+    gap: 80px;
     padding: 40px 100px;
+    padding-bottom: 150px;
+    margin-bottom: 60px;
 }
 
 .header{
@@ -25,12 +27,13 @@ body{
 }
 
 .left-header{
-    font-size: 24px;
+    font-size: 28px;
+    font-weight: bolder;
     color: #F9FAF8;
 }
 
 .right-header{
-    font-size: 18px;
+    font-size: 22px;
     color: #E5E7EB;
 }
 
@@ -50,34 +53,34 @@ a{
     display: flex ;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 40px;
+    margin-bottom: 60px;
 }
 .left-content{
     display: flex;
     flex-direction: column;
-    gap:10px;
+    gap:28px;
     width: 450px;
 }
 .heading-content{
-    font-size: 48px;
+    font-size: 50px;
     font-weight: bolder;
     color: #F9FAF8;
 }
 .middle-content{
-    font-size: 18px;
+    font-size: 22px;
     color: #E5E7EB;
 }
 .content-button{
     background-color: #3882F6;
     color: white;
     border-radius: 5px;
-    padding: 9px 18px;
+    padding: 12px 22px;
+    font-size: 20px;
     font-weight: bold;
     border: none;
 }
 .right-content img{
-    width: 400px;
-    height: auto;
+    width: 500px;
 }
 .info-container{
     display: flex;
@@ -88,7 +91,7 @@ a{
 
 }
 .info{
-    font-size: 36px;
+    font-size: 38px;
     font-weight: bolder;
 
 }
@@ -97,16 +100,16 @@ a{
  gap: 50px;
 }
 .upper div{
-    font-size: 22px;
+    font-size: 24px;
     text-align: center;
+    word-wrap: break-word;
     font-weight: 400;
-
-    
+  
 }
 .upper-image{
-    width: 280px;
-    height: 220px;
-    border: #3882F6 solid 5px;
+    width: 300px;
+    height: 280px;
+    border: #3882F6 solid 8px;
     object-position: center;
     object-fit: cover;
     border-radius: 10px;
@@ -144,8 +147,8 @@ a{
     display: flex;
     justify-content: space-between;
     background-color: #3882F6;
-    width: 800px;
-    height: 80px;
+    width: 1200px;
+    height: 120px;
     padding: 40px 80px;
     border-radius: 10px;
 }
@@ -156,13 +159,13 @@ a{
     justify-content: center;
 }
 .para-one{
-    font-size: 20px;
+    font-size: 26px;
     margin: 0;
     color: #F9FAF8;
     font-weight: bold;
 }
 .para-second{
-    font-size: 14px;
+    font-size: 18px;
     margin: 0;
     color: #F9FAF8;
 }
@@ -175,8 +178,9 @@ a{
     background-color: #3882F6;
     border: #F9FAF8 solid 1px;
     color: white;
-    border-radius: 5px;
-    padding: 8px 26px;
+    font-size: 20px;
+    border-radius: 8px;
+    padding: 14px 30px;
 }
 .footer{
     background-color: #1F2937;
@@ -185,6 +189,6 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 20px;
+    font-size: 28px;
 }
 
