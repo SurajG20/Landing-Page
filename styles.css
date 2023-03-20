@@ -104,10 +104,10 @@ a{
     border: black solid 3px;
     box-shadow:rgba(17, 17, 26, 0.1) 0px 8px 24px;
 }
-.content-button:hover {background-color: #c1563e;;}
+.content-button:hover {background-color: #c64a2e;;}
 
 .content-button:active {
-  background-color: #be553d;;
+  background-color: #c64a2e;;
   box-shadow: 0 2px #666;
   transform: translateY(2px);
 }
@@ -228,7 +228,7 @@ a{
 .sign-up-button:hover {background-color: #51577f;}
 
 .sign-up-button:active {
-  background-color: ##51577f;
+  background-color: #51577f;
   box-shadow: 0 2px #666;
   transform: translateY(2px);
 }
